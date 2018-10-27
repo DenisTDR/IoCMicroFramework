@@ -1,0 +1,19 @@
+{
+  "DiConfigs": [
+    {
+      "InterfaceType": "IoCApp.Interfaces.IMovieLister",
+      "ImplementationType": "IoCApp.Implementations.MovieLister",
+      "Type": 1
+    }
+  ],
+  "DiConfigsWithArguments": [
+    {
+      "PrimitiveArgumentList": [
+        "./movies/movies.txt"
+      ],
+      "InterfaceType": "IoCApp.Interfaces.IMovieFinder",
+      "ImplementationType": "IoCApp.Implementations.MovieFinderTxt",
+      "Type": 2
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "Id": 1,
+    "Name": "Film1-json",
+    "Producer": "Nume1-json"
+  },
+  {
+    "Id": 2,
+    "Name": "Film2-json",
+    "Producer": "Nume2-json"
+  },
+  {
+    "Id": 3,
+    "Name": "Film3-json",
+    "Producer": "Nume3-json"
+  },
+  {
+    "Id": 4,
+    "Name": "Film4-json",
+    "Producer": "Nume4-json"
+  }
+]
