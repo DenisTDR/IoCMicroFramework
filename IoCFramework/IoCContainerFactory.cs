@@ -85,6 +85,10 @@ namespace IoCFramework
         {
             var type = AppDomain.CurrentDomain.GetAssemblies().SelectMany(assembly => assembly.GetTypes())
                 .FirstOrDefault(t1 => t1.FullName == fullName);
+            if (type == null)
+            {
+                throw new Exception("Type with full name '" + fullName + "' not found.");
+            }
 
             return type;
         }
