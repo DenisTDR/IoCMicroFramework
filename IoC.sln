@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoCFramework", "IoCFramewor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesApp", "MoviesApp\MoviesApp.csproj", "{4D04C1D6-CB5F-4816-AFBD-C22B0898CE6B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagesApp", "MessagesApp\MessagesApp.csproj", "{A071A27E-3FD9-4FAE-A718-AE5EF18B8E4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4D04C1D6-CB5F-4816-AFBD-C22B0898CE6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D04C1D6-CB5F-4816-AFBD-C22B0898CE6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D04C1D6-CB5F-4816-AFBD-C22B0898CE6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A071A27E-3FD9-4FAE-A718-AE5EF18B8E4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A071A27E-3FD9-4FAE-A718-AE5EF18B8E4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A071A27E-3FD9-4FAE-A718-AE5EF18B8E4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A071A27E-3FD9-4FAE-A718-AE5EF18B8E4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

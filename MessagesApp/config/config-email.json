@@ -1,0 +1,19 @@
+{
+  "DiConfigs": [
+    {
+      "InterfaceType": "MessagesApp.Interfaces.IAlertService",
+      "ImplementationType": "MessagesApp.Implementations.AlertService",
+      "Type": "Transient"
+    }
+  ],
+  "DiConfigsWithArguments": [
+    {
+      "PrimitiveArgumentList": [
+        "smtp.config.com"
+      ],
+      "InterfaceType": "MessagesApp.Interfaces.IMessageService",
+      "ImplementationType": "MessagesApp.Implementations.EmailService",
+      "Type": "Transient"
+    }
+  ]
+}
