@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using IoCFramework;
@@ -22,9 +22,6 @@ namespace MoviesApp
 
         private static void UseIoC(IIoCContainer container)
         {
-//            var finder = container.GetInstance<IMovieFinder>();
-//            var movie = finder.FindById(2);
-//            Console.WriteLine(movie.Name);
 
             var lister = container.GetInstance<IMovieLister>();
             lister.DisplayMovies();

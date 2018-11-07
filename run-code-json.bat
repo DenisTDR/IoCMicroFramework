@@ -1,1 +1,0 @@
-dotnet run --project MoviesApp code json ./movies/movies.json

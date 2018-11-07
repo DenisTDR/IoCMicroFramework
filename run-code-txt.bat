@@ -1,1 +1,0 @@
-dotnet run --project MoviesApp code txt ./movies/movies.txt

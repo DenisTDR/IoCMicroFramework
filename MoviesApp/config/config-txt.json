@@ -1,0 +1,19 @@
+{
+  "DiConfigs": [
+    {
+      "InterfaceType": "MoviesApp.Interfaces.IMovieLister",
+      "ImplementationType": "MoviesApp.Implementations.MovieLister",
+      "Type": "Singleton"
+    }
+  ],
+  "DiConfigsWithArguments": [
+    {
+      "PrimitiveArgumentList": [
+        "./movies/movies.txt"
+      ],
+      "InterfaceType": "MoviesApp.Interfaces.IMovieFinder",
+      "ImplementationType": "MoviesApp.Implementations.MovieFinderTxt",
+      "Type": "Transient"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+dotnet run code json ./movies/movies.json

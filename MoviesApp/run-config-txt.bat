@@ -1,0 +1,1 @@
+dotnet run config ./config/config-txt.json
